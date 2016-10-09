@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>f.r.i.e.n.d.s quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+
+$(document).ready(function(){
+  var a = $(".question");
+  a.each(function(index) {
+    var flip = $(this).find(".flip");
+    var panel = $(this).find(".panel");
+    flip.click(function(){
+      panel.slideDown("medium");
+      panel.slideUp(500);
+    });
+  });
+});
+</script>
+</head>
+<body>
+<h1><i>f.r.i.e.n.d.s quiz!!</i></h1>
+<div class="container">
+
+	<p class="ques">
+	<font color=#b87333>1. who plays the character of joey?</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Mattew Perry</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">Matt Leblanc</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Joey Tribbiani</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">David schwimmer</div>
+ 	</div>
+	</div>
+
+    <br> <br> <br>
+	
+	<p class="ques">
+	<font color=#b87333>2. How did phoebe's mother die?</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">she bent down to get groceries and never came back up</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">she got hit by a car</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">she killed herself</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">she burned in Pheobe's flat</div>
+	</div>
+
+	</div>
+
+	<br> <br> <br>
+
+	<p class="ques">
+	<font color=#b87333>3. What is Joey's pick-up line?</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">hey,baby?</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">i drive a porshe</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">how you doing?'</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">how's it going baby?</div>
+	</div>
+	</div>
+
+	<br> <br> <br>
+
+	<p class="ques">
+	<font color=#b87333>4. Who was rachel dating when she was 30?</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">chip</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">paul</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">tag</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">ross</div>
+	</div>
+	</div>
+
+	<br> <br> <br>
+
+	<p class="ques">
+	<font color=#b87333>5. what is the name of the bartender in Central Perk?</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">rachel</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">joey</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">gunther</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">monica</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+	

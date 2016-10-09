@@ -1,0 +1,44 @@
+html{
+	text-align: center;
+}
+h1{
+	font-size: 45px;
+	font-style: sans-serif;
+}
+.panel,.flip
+{
+  cursor: pointer;
+  padding:5px;
+  text-align:center;
+  background-color: grey;
+  border:solid 1px #c3c3c3;
+  width:140px;
+  border-radius: 5px;
+  border-spacing: 1px;
+}
+.panel
+{
+  display:none;
+}
+.question
+{
+  float:left;
+  font-style: oblique;
+}
+.row
+{
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 350px;
+}
+.ques
+{
+  font-style: Comic sans-serif;
+  font-size: 35px;
+}
+.container{
+  width: 70%
+  margin: 20px auto;
+  overflow: auto;
+  text-align: center;
+}
